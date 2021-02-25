@@ -1,8 +1,10 @@
 import React from 'react'
 
-const MainList = () => {
+const MainList = ({data}) => {
   return (
     <div>
+      Listss
+      {console.log(data)}
       
     </div>
   )
