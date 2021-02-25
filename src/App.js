@@ -8,7 +8,8 @@ function App() {
   const [dataList, setDataList] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState(null)
-  const url = `https://api.github.com/users/${username}/repos`
+  const url = `https://api.github.com/users/${username}/repos`;
+  const title = "From github user"
 
   useEffect(() => {
     fetch(url)
@@ -35,7 +36,7 @@ function App() {
       { error && <div>{ error }</div>}
       <h1>Github Repository List</h1>
       { isLoading && <div>Loading...</div>}
-      {dataList && <MainList data={dataList}/>}
+      {dataList && <MainList data={dataList} title={title} user={username}/>}
     </div>
   );
 }

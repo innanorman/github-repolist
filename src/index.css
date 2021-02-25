@@ -11,3 +11,49 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+h4{
+  font-weight: 400;
+}
+
+.user-title{
+  font-weight: 600;
+}
+
+.repo-list{
+  padding: 10px 16px;
+  border-bottom: 1px solid #808080;
+  width: 100vw;
+}
+
+.detail-side{
+  text-align: left;
+}
+
+.repo-name{
+  font-size: 16px;
+  font-weight: 600;
+  color: #003366;
+  margin-bottom: 10px;
+}
+
+.language{
+  margin-bottom: 10px;
+}
+
+.bullet-lang{
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #ffd500;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.text-label{
+  font-size: 14px;
+  color: #003366;
+  margin-right: 10px;
+}
+
+
